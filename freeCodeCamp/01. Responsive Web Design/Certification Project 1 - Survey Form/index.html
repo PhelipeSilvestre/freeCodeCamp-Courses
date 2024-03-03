@@ -37,7 +37,7 @@
             type="number"
             min="1"
             max="100"
-            placeholder="Enter your age"
+            
           />
         </fieldset>
 
@@ -61,8 +61,7 @@
             <p>You will able to a participate in a test of developer team?</p>
           </legend>
 
-          <label for="positiveTest"
-            >Yes
+          <label for="positiveTest">
             <input
               type="radio"
               id="positiveTest"
@@ -70,37 +69,64 @@
               class="input-radio"
               value="Yes"
               checked
-            />
+            />Yes
           </label>
 
-          <label for="negativeTest"
-            >No
+          <label for="negativeTest">
             <input
               type="radio"
               id="negativeTest"
               name="testDev"
               class="input-radio"
               value="No"
-            />
+            />No
           </label>
         </fieldset>
 
         <fieldset>
           <legend>Whats lenguages you have domain?</legend>
 
-          <label><input type="checkbox" value="Javascript" />Javascript</label>
-          <label><input type="checkbox" value="Python" />Python</label>
-          <label><input type="checkbox" value="Java" />Java</label>
-          <label><input type="checkbox" value="C#" />C#</label>
-          <label><input type="checkbox" value="Git" />Git</label>
           <label
-            ><input type="" value="Others" />Others<textarea
-              placeholder="Enter your lenguages"
-            ></textarea>
+            ><input
+              type="checkbox"
+              class="input-checkbox"
+              value="Javascript"
+            />Javascript</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              class="input-checkbox"
+              value="Python"
+            />Python</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              class="input-checkbox"
+              value="Java"
+            />Java</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              class="input-checkbox"
+              value="C#"
+            />C#</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              class="input-checkbox"
+              value="Git"
+            />Git</label
+          >
+          <label></label>
+            <textarea placeholder="Others"></textarea>
           </label>
         </fieldset>
 
-        <input type="submit" id="submit" value="Submit" />
+        <input type="submit" id="submit" class="submit-button" value="Submit" />
       </form>
     </section>
   </body>

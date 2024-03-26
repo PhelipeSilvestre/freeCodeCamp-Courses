@@ -1,0 +1,75 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+header {
+  position: relative;
+  background-color: #000; /* Mudança para preto */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  color: #fff; /* Mudança para branco */
+}
+
+#title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo {
+  flex: 1;
+}
+
+nav ul.menu {
+  list-style-type: none;
+}
+
+nav ul.menu li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav ul.menu li a {
+  color: #fff; /* Define a cor dos links para branco */
+  text-decoration: none; /* Remove a sublinhado dos links */
+}
+
+nav ul.menu li a:hover {
+  color: #ffd700; /* Define a cor quando o link é hover para um amarelo dourado */
+}
+.logo-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; /* Define a imagem como posição absoluta */
+  left: 50%; /* Define a posição inicial para o centro horizontal */
+  transform: translateX(
+    -50%
+  ); /* Move a imagem 50% do seu próprio tamanho para a esquerda para centralizá-la */
+}
+
+.logo-image img {
+  max-width: 150px;
+  height: auto;
+}
+#image {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+}
+#img-caption {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+#tribute-info {
+  font-size: 16px; /* Defina o tamanho da fonte desejado */
+  line-height: 1.6; /* Defina o espaçamento entre linhas */
+  text-align: justify; /* Justifica o texto */
+  margin-bottom: 20px; /* Adiciona espaço abaixo do texto */
+}
+#tribute-info p {
+  font-weight: normal;
+}

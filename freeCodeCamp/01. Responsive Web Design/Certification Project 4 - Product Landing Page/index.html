@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buy a Guitar</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img src="./assets/images/logo-guitar.png" id="header-img" />
+          <div id="logo-text">Guitar Power</div>
+        </div>
+
+        <nav id="nav-bar">
+          <ul>
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+            <li><a href="#pricing" class="nav-link">Pricing</a></li>
+            <li><a href="#registration" class="nav-link">Registration</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section id="hero">
+        <h2>Handcrafted, home-made masterpieces</h2>
+      </section>
+
+      <div id="container">
+        <div id="features"></div>
+
+        <div id="how-it-works">
+          <iframe
+            id="video"
+            width="780"
+            height="438"
+            src="https://www.youtube.com/embed/G3AsDzOYzRY"
+            title="O melhor solo de guitarra do mundo"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <div id="pricing"></div>
+
+        <div id="registration">
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label for="name"></label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              required
+            />
+            <label for="email"></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
+            <input id="submit" type="submit" value="Sign Up" />
+          </form>
+        </div>
+
+        <div id="footer">
+          <p>Copyright &copy; 2024, phelipeSilvestre</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,6 +1,6 @@
 /** global element styling **/
 
-@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
 
 * {
   margin: 0;
@@ -10,7 +10,7 @@
 
 body {
   background-color: #eee;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 #page-wrapper {
@@ -102,7 +102,7 @@ nav {
   font-weight: 400;
 }
 
-.nav-bar{
+.nav-bar {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -155,8 +155,6 @@ nav > ul {
   text-align: center;
 }
 
-
-
 @media (max-width: 650px) {
   #hero {
     margin-top: 120px;
@@ -208,7 +206,7 @@ nav > ul {
 
 #how-it-works {
   margin-top: 50px;
-  
+
   justify-content: center;
 }
 
@@ -217,12 +215,13 @@ nav > ul {
   width: 100%;
   display: flex;
   align-items: center;
-  margin-left: 350px;
-  margin-top : 50px;
+  margin: 0 auto;
 }
-#text-h2{
+#text-h2 {
   text-align: center;
+  margin-bottom: 30px;
 }
+
 #pricing {
   margin-top: 60px;
   display: flex;

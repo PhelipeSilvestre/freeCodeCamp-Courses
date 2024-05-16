@@ -1,0 +1,9 @@
+body{
+    background: linear-gradiente(
+      45deg,
+      rgb(118, 201, 255),
+      rgb(247, 255, 222)
+  
+    );
+  }
+  

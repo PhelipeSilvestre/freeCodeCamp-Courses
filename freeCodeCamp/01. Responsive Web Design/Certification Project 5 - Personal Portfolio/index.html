@@ -1,12 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Personal Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap"
+      rel="stylesheet"
+    />
   </head>
-
   <body>
     <!-- START NAV -->
 
@@ -26,18 +35,126 @@
 
     <!-- END NAV -->
 
+    <!-- START WELCOME SECTION -->
+
     <section id="welcome-section" class="welcome-section">
-      <h1>Hi, I'm Phelipe Silvestre</h1>
-      <p>
-        Welcome to my personal portfolio. I'm a web developer fullstack. Feel
-        free to browse around and learn more about me.
-      </p>
+      <h1>Hey I am Phelipe</h1>
+      <p>a Brazilian Full Stack Developer!</p>
     </section>
 
-    <section id="projects">
-      <div class="project-title">
-        <link href="" />
+    <!-- END WELCOME SECTION -->
+
+    <!-- START PROJECTS SECTION -->
+
+    <section id="projects" class="projects-section">
+      <h2 class="projects-section-header">These are some of my projects</h2>
+
+      <div class="projects-grid">
+        <a
+          href="https://phelipesilvestre.github.io/landing-page/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="/images/project-1.png"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            landing-page
+            <span class="code">/&gt;</span>
+          </p>
+        </a>
+
+        <a
+          href="https://phelipesilvestre.github.io/Workspace---Website-A7X/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="/images/project-2.PNG"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Tribute-Page
+            <span class="code">/&gt;</span>
+          </p>
+        </a>
+
+        <a
+          href="https://phelipesilvestre.github.io/Form_01/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="/images/project-3.PNG"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            form
+            <span class="code">/&gt;</span>
+          </p>
+        </a>
+      </div>
+
+      <a
+        href="https://codepen.io/FreeCodeCamp/"
+        class="btn btn-show-all"
+        target="_blank"
+        >Show all<i class="fas fa-chevron-right"></i
+      ></a>
+    </section>
+
+    <!-- END PROJECTS SECTION -->
+
+    <!-- START CONTACT SECTION -->
+
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>I am looking for opportunities to showcase my abilities...</h2>
+        <p>
+          I am a developer with 2 years of experience, always looking to enhance
+          my skills and contribute to challenging projects. I stay updated with
+          the latest technologies and market trends by regularly participating
+          in online courses and contributing to open-source projects on GitHub.
+        </p>
+      </div>
+      <div class="contact-links">
+        <a
+          href="https://www.facebook.com/fee.silvestre.3/"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-facebook-square"></i> Facebook</a
+        >
+        <a
+          id="profile-link"
+          href="https://github.com/PhelipeSilvestre"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+        <a
+          href="https://x.com/SilvestreHFee"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-twitter"></i> Twitter</a
+        >
       </div>
     </section>
+
+    <!-- END CONTACT SECTION -->
+
+    <!-- START FOOTER SECTION -->
+
+    <footer>
+      <p>© Created for PhelipeSilvestre</p>
+    </footer>
+
+    <!-- END FOOTER SECTION -->
   </body>
 </html>

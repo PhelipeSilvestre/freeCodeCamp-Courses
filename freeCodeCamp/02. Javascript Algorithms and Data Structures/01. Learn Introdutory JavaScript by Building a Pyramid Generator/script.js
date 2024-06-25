@@ -1,16 +1,22 @@
 const character = "#";
 const count = 8;
-const rows = []; // array to store the rows
+const rows = [];
 
-// loop to create the rows
+function padRow() {
+  return "Hello!";
+}
+const call = padRow();
+console.log(call);
+
+
 for (let i = 0; i < count; i = i + 1) {
-  rows.push(i);
+  rows.push(character.repeat(i + 1))
 }
 
-let result = "";
+let result = ""
 
-// loop to create the pyramid
 for (const row of rows) {
+  result = result + "\n" + row;
 }
 
 console.log(result);

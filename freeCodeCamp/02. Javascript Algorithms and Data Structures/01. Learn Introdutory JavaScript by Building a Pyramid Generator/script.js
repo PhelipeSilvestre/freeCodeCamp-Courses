@@ -2,6 +2,16 @@ const character = "#";
 const count = 8;
 const rows = [];
 
+/* USE OF FUNCTION WITH PARAMETHER AND ARGUMENTS
+
+function addTwoNumbers(num1, num2) {
+  return num1 + num2;
+}
+
+const sum = addTwoNumbers(5, 10);
+console.log(sum)
+*/
+
 function padRow() {
   return "Hello!";
 }

@@ -30,6 +30,20 @@ function padRow(rowNumber, rowCount) {
   console.log("None declaration is true");
 }*/
 
+// Use of While loop
+/*
+let continueLoop = false;
+let done = 0;
+
+while (done !== count) {
+  done++;
+  rows.push(padRow(done, count));
+  if (done === count) {
+    continueLoop = false;
+  } 
+}
+*/
+
 let result = ""
 
 for (const row of rows) {

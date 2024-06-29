@@ -21,9 +21,14 @@ function padRow(rowNumber, rowCount) {
   rows.push(padRow(i, count));
 }*/
 
-if ("") {
+// Use of If - Else structure
+/*if ("") {
   console.log("Condition is true");
-}
+} else if ( 5 < 10 ) {
+  console.log(" 5 is lower then 10");
+} else {
+  console.log("None declaration is true");
+}*/
 
 let result = ""
 

@@ -44,6 +44,11 @@ while (done !== count) {
 }
 */
 
+// Other use of while in lower lines
+/*while (rows.length < count) {
+  rows.push(padRow(rows.length + 1, count));
+}*/
+
 let result = ""
 
 for (const row of rows) {

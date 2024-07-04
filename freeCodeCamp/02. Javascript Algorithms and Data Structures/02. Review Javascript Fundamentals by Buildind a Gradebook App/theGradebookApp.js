@@ -46,3 +46,28 @@ function hasPassingGrade(score) {
 console.log(hasPassingGrade(100));
 console.log(hasPassingGrade(53));
 console.log(hasPassingGrade(87));
+
+// Atividade IV - test final
+
+function studentMsg(totalScores, studentScore) {
+  
+    // pegar a media da classe
+    const media = getAverage(totalScores);
+    console.log(media);
+  
+    // pegar nota do aluno
+    const notaAluno = getGrade(studentScore)
+      console.log(notaAluno);
+
+    let result;
+
+    // checar se o aluno passou e mostrar o resultado
+    if(hasPassingGrade(studentScore)) {
+     result = "Class average: " + media + "." + " Your grade: " + notaAluno + ". You passed the course.";
+    } else {
+     result = "Class average: " + media + "." + " Your grade: " + notaAluno + ". You failed the course.";
+     
+    }
+   return result; 
+  }
+  console.log(studentMsg([56, 23, 89, 42, 75, 11, 68, 34, 91, 19], 100));

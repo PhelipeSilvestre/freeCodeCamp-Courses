@@ -40,15 +40,7 @@ console.log(getGrade(56));
 // Atividade III - as passing grade
 
 function hasPassingGrade(score) {
-
-  const grade = getGrade(score)
-
-  if (grade !== "F" ){
-    return true;
-  } else {
-    return false;
-  }
-
+  return getGrade(score) !== "F";
 }
 
 console.log(hasPassingGrade(100));

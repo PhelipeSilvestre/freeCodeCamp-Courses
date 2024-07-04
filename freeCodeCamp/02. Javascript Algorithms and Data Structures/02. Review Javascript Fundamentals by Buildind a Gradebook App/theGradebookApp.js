@@ -1,22 +1,13 @@
-// Atividade I - Average of score
 function getAverage(scores) {
-    let sum = 0;
-    let average = 0;
-    let leng = scores.length;  
-  
-    for (const score of scores) {    
-      sum = sum + score;  
-    }
-  
-    average = sum / leng;
-    
-    return average;
-  }
-  
-  console.log(getAverage([92, 88, 12, 77, 57, 100, 67, 38, 97, 89]));
-  console.log(getAverage([45, 87, 98, 100, 86, 94, 67, 88, 94, 95]));
+  let sum = 0;
 
-// atividade II - grade of score 
+  for (const score of scores) {
+    sum += score;
+  }
+
+  return sum / scores.length;
+}
+
 function getGrade(score) {
   if (score === 100) {
     return "A++";
@@ -33,23 +24,11 @@ function getGrade(score) {
   }
 }
 
-console.log(getGrade(96));
-console.log(getGrade(82));
-console.log(getGrade(56));
-
-// Atividade III - as passing grade
-
 function hasPassingGrade(score) {
   return getGrade(score) !== "F";
 }
 
-console.log(hasPassingGrade(100));
-console.log(hasPassingGrade(53));
-console.log(hasPassingGrade(87));
-
-// Atividade IV - test final
-
-function studentMsg(totalScores, studentScore) {
+  function studentMsg(totalScores, studentScore) {
   
     // pegar a media da classe
     const media = getAverage(totalScores);

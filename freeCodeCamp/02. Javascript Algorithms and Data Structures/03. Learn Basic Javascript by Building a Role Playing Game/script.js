@@ -198,7 +198,10 @@ function attack() {
       defeatMonster();
     }
   }
-
+  if (Math.random() <= .1 && inventory.length !== 1) {
+    text.innerText += " Your " + inventory.pop() + " breaks.";
+    currentWeaponIndex--;
+  }
 }
 
 function getMonsterAttackValue(level) {
@@ -242,3 +245,4 @@ function restart() {
   xpText.innerText = xp;
   goTown();
 }
+

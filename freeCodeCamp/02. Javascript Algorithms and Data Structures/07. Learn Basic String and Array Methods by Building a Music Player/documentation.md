@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------------
-### Step 9
+### Spred Operator
 
 The spread operator (...) allows you to copy all elements from one array into another. It can also be used to concatenate multiple arrays into one. In the example below, both arr1 and arr2 have been spread into combinedArr:
 
@@ -12,7 +12,27 @@ Example Code
             console.log(combinedArr); // Output: [1, 2, 3, 4, 5, 6]
 
 ---------------------------------------------------------------------------------
-### Step 36
+
+### Arrow function
+
+An arrow function is an anonymous function expression and a shorter way to write functions. Anonymous means that the function does not have a name. Arrow functions are always anonymous.
+
+Here is the basic syntax:
+
+Example Code
+
+            () => {}
+
+To create a named arrow function, you can assign the function to a variable:
+
+Example Code
+
+            const exampleFunction = () => {
+              // code goes here
+            }
+
+---------------------------------------------------------------------------------
+### Method: find() 
 
 The find() method retrieves the first element within an array that fulfills the conditions specified in the provided callback function. If no element satisfies the condition, the method returns undefined.
 

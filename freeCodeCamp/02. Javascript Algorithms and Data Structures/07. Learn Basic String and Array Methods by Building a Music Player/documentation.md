@@ -107,6 +107,28 @@ Example Code
             console.log(sentence); // Output: "This is a sentence"
 
 ---------------------------------------------------------------------------------
+### Optional chaining (?.)
+
+Optional chaining (?.) helps prevent errors when accessing nested properties that might be null or undefined. For example:
+
+Example Code
+
+            const user = {
+              name: "Quincy",
+              address: {
+                city: "San Francisco",
+                state: "CA",
+                country: "USA",
+              },
+            };
+
+            // Accessing nested properties without optional chaining
+            const state = user.address.state; // CA
+
+            // Accessing a non-existent nested property with optional chaining
+            const zipCode = user.address?.zipCode; // Returns undefined instead of throwing an error
+
+---------------------------------------------------------------------------------
 ### Method: find() 
 
 The find() method retrieves the first element within an array that fulfills the conditions specified in the provided callback function. If no element satisfies the condition, the method returns undefined.

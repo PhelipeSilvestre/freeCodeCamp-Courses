@@ -138,6 +138,101 @@ Example Code
             const names = ["Tom", "Jessica", "Quincy", "Naomi"];
             names.sort() // ["Jessica", "Naomi", "Quincy", "Tom"]
 
+To sort the songs in alphabetical order by title, you will need to pass in a compare callback function into your sort() method.
+
+Here is an example of sorting a list of fruits by name.
+
+Example Code
+
+            const fruits = [
+              { name: "Apples", price: 0.99 },
+              { name: "Blueberries", price: 1.49 },
+              { name: "Grapes", price: 2.99 },
+            ];
+
+            fruits.sort((a, b) => {
+              if (a.name < b.name) {
+                return -1;
+              }
+
+              if (a.name > b.name) {
+                return 1;
+              }
+
+              return 0;
+            });
+
+The sort() method accepts a compare callback function that defines the sort order.
+
+In this example, the first condition (a.name < b.name) checks if the name of the first fruit is less than the name of the second fruit. If so, the first fruit is sorted before the second fruit.
+
+Strings are compared lexicographically which means they are compared character by character. For example, "Apples" is less than "Bananas" because "A" comes before "B" in the alphabet.
+
+The reason why this example is returning numbers is because the sort() method is expecting a number to be returned. If you return a negative number, the first item is sorted before the second item.
+
+Example Code
+
+            const fruits = [
+              { name: "Apples", price: 0.99 },
+              { name: "Blueberries", price: 1.49 },
+              { name: "Grapes", price: 2.99 },
+            ];
+
+            fruits.sort((a, b) => {
+              if (a.name < b.name) {
+                return -1;
+              }
+
+              if (a.name > b.name) {
+                return 1;
+              }
+
+              return 0;
+            });
+
+The second condition in this example checks if a.name > b.name. If so, the function returns 1, which sorts the first fruit after the second fruit.
+
+Example Code
+
+            const fruits = [
+              { name: "Apples", price: 0.99 },
+              { name: "Blueberries", price: 1.49 },
+              { name: "Grapes", price: 2.99 },
+            ];
+
+            fruits.sort((a, b) => {
+              if (a.name < b.name) {
+                return -1;
+              }
+
+              if (a.name > b.name) {
+                return 1;
+              }
+
+              return 0;
+            });
+
+In the example, if a.name is equal to b.name, then the function returns 0. This means that nothing changes and the order of a and b remains the same.
+
+Example Code
+
+            const fruits = [
+              { name: "Apples", price: 0.99 },
+              { name: "Blueberries", price: 1.49 },
+              { name: "Grapes", price: 2.99 },
+            ];
+
+            fruits.sort((a, b) => {
+              if (a.name < b.name) {
+                return -1;
+              }
+
+              if (a.name > b.name) {
+                return 1;
+              }
+
+              return 0;
+            });
 ---------------------------------------------------------------------------------
 ### Method: find() 
 

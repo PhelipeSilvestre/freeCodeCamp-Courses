@@ -87,6 +87,26 @@ Example Code
             };
 
 ---------------------------------------------------------------------------------
+### Method: map()
+
+The map() method is used to iterate through an array and return a new array. It's helpful when you want to create a new array based on the values of an existing array. For example:
+
+Example Code
+const numbers = [1, 2, 3];
+const doubledNumbers = numbers.map((number) => number * 2); // doubledNumbers will be [2, 4, 6]
+
+---------------------------------------------------------------------------------
+### Method: join()
+
+The join() method is used to concatenate all the elements of an array into a single string. It takes an optional parameter called a separator which is used to separate each element of the array. For example:
+
+Example Code
+
+            const exampleArr = ["This", "is", "a", "sentence"];
+            const sentence = exampleArr.join(" "); // Separator takes a space character
+            console.log(sentence); // Output: "This is a sentence"
+
+---------------------------------------------------------------------------------
 ### Method: find() 
 
 The find() method retrieves the first element within an array that fulfills the conditions specified in the provided callback function. If no element satisfies the condition, the method returns undefined.

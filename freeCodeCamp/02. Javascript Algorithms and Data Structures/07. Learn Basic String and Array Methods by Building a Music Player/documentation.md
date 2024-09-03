@@ -55,6 +55,37 @@ Example Code
               console.log(`Hello, ${name}!`);
             };
 
+
+Just like regular functions, arrow functions can return values.
+
+Here is an example of an arrow function returning the result of multiplying two numbers:
+
+Example Code
+
+            const multiplyTwoNumbers = (num1, num2) => {
+              return num1 * num2;
+            }
+
+            // Output: 12
+            console.log(multiplyTwoNumbers(3, 4)); 
+
+
+If the arrow function is returning a simple expression, you can omit the return keyword and the curly braces {}. This is called an implicit return.
+
+Example Code
+
+            const multiplyTwoNumbers = (num1, num2) => num1 * num2;
+            
+If your arrow function has multiple lines of code in the function body, then you need to use the return keyword and the curly braces {}.
+
+Example Code
+
+            const getTax = (price) => {
+              const taxRate = 0.08;
+              const tax = price * taxRate;
+              return tax;
+            };
+
 ---------------------------------------------------------------------------------
 ### Method: find() 
 

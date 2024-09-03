@@ -129,6 +129,16 @@ Example Code
             const zipCode = user.address?.zipCode; // Returns undefined instead of throwing an error
 
 ---------------------------------------------------------------------------------
+### Method: sort()
+
+The sort() method converts elements of an array into strings and sorts them in place based on their values in the UTF-16 encoding.
+
+Example Code
+
+            const names = ["Tom", "Jessica", "Quincy", "Naomi"];
+            names.sort() // ["Jessica", "Naomi", "Quincy", "Tom"]
+
+---------------------------------------------------------------------------------
 ### Method: find() 
 
 The find() method retrieves the first element within an array that fulfills the conditions specified in the provided callback function. If no element satisfies the condition, the method returns undefined.

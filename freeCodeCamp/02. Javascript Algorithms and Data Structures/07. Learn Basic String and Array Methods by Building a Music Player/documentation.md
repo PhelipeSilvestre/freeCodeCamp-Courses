@@ -249,4 +249,34 @@ Example Code
             console.log(foundNumber); // Output: 30
 
 ---------------------------------------------------------------------------------
+### Property: classList
+
+The classList property in JavaScript is used to manipulate the classes of an HTML element. It returns a collection of class tokens (i.e., class names) for the element, allowing you to easily add, remove, toggle, or check for classes.
+
+Here are some common methods used with classList:
+
+1 - element.classList.add('class-name'): Adds one or more classes to the element.
+
+            element.classList.add('new-class');
+
+2 - element.classList.remove('class-name'): Removes one or more classes from the element.
+
+            element.classList.remove('old-class');
+
+3 - element.classList.toggle('class-name'): Toggles a class on the element. If the class is present, it removes it; if it's not present, it adds it.
+
+            element.classList.toggle('active');
+
+4 - element.classList.contains('class-name'): Checks if the element has a specific class, returning true or false.
+
+            if (element.classList.contains('active')) {
+                // Do something
+            }
+
+5- element.classList.replace('old-class', 'new-class'): Replaces an existing class with a new one.
+
+            element.classList.replace('old-class', 'new-class');
+
+These methods make it easier to work with CSS classes in JavaScript, enhancing the interactivity and styling of your web pages.
+
 

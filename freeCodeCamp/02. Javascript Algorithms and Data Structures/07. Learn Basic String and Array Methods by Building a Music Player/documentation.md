@@ -280,3 +280,36 @@ Here are some common methods used with classList:
 These methods make it easier to work with CSS classes in JavaScript, enhancing the interactivity and styling of your web pages.
 
 
+---------------------------------------------------------------------------------
+### Array Method: indexOf()
+
+To get the index, you can use the indexOf() method. The indexOf() array method returns the first index at which a given element can be found in the array, or -1 if the element is not present.
+
+Example Code
+
+            const animals = ["dog", "cat", "horse"];
+            animals.indexOf("cat") // 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

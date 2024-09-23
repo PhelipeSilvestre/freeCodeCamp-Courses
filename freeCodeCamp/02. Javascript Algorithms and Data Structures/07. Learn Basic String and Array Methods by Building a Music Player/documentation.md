@@ -308,10 +308,27 @@ Example Code
 
 ---------------------------------------------------------------------------------
 
+### textContent
+
+textContent sets the text of a node and allows you to set or retrieve the text content of an HTML element.
+
+Example Code
+
+            <div id="example">This is some text content</div>
+            
+Example Code
+
+            const element = document.getElementById('example');
+            console.log(element.textContent); // Output: This is some text content
+            
+You can use a ternary operator to conditionally set the text content value. Here is an example of assigning the result of a ternary operator to a variable:
+
+Example Code
+
+            const example = condition ? "I'm true" : "I'm false";
 
 
-
-
+---------------------------------------------------------------------------------
 
 
 

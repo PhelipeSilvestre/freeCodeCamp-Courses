@@ -330,9 +330,16 @@ Example Code
 
 ---------------------------------------------------------------------------------
 
+### Math.random()
 
+One way to randomize an array of items would be to subtract 0.5 from Math.random() which produces random values that are either positive or negative. This makes the comparison result a mix of positive and negative values, leading to a random ordering of elements.
 
+Example Code
 
+            const names = ["Tom", "Jessica", "Quincy", "Naomi"];
+            names.sort(() => Math.random() - 0.5);
+
+---------------------------------------------------------------------------------
 
 
 

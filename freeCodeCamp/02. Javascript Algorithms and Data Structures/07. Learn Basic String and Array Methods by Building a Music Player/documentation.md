@@ -341,9 +341,18 @@ Example Code
 
 ---------------------------------------------------------------------------------
 
+### Method filter()
 
+The filter method keeps only the elements of an array that satisfy the callback function passed to it:
 
+Example Code
 
+            const numArr = [1, 10, 8, 3, 4, 5]
+            const numsGreaterThanThree = numArr.filter((num) => num > 3);
+
+            console.log(numsGreaterThanThree) // Output: [10, 8, 4, 5]
+
+---------------------------------------------------------------------------------
 
 
 

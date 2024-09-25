@@ -354,5 +354,22 @@ Example Code
 
 ---------------------------------------------------------------------------------
 
+### createElement()
 
+createElement() is a DOM method you can use to dynamically create an element using JavaScript. To use createElement(), you call it, then pass in the tag name as a string:
 
+Example Code
+
+            // syntax
+            document.createElement(tagName)
+
+            // example
+            document.createElement('div')
+            
+You can also assign it to a variable:
+
+Example Code
+
+            const divElement = document.createElement('div')
+
+---------------------------------------------------------------------------------

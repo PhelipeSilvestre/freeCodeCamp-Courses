@@ -373,3 +373,21 @@ Example Code
             const divElement = document.createElement('div')
 
 ---------------------------------------------------------------------------------
+
+### createTextNode()
+
+The createTextNode() method is used to create a text node. To use it, you call it and pass in the text as a string:
+
+Example Code
+
+            document.createTextNode("your text")
+            
+You can also assign it to a variable:
+
+Example Code
+
+            const myText = document.createTextNode("your text")
+
+---------------------------------------------------------------------------------
+
+

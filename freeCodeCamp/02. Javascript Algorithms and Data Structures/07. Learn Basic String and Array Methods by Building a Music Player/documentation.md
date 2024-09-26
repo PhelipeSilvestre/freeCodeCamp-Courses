@@ -390,4 +390,18 @@ Example Code
 
 ---------------------------------------------------------------------------------
 
+### appendChild()
+
+appendChild() lets you add a node or an element as the child of another element. In the example below, the text "Click me" would be attached to the button:
+
+Example Code
+
+            const parentElement = document.createElement("button")
+            const parentElementText = document.createTextNode("Click me")
+
+            // attach the text "Click me" to the button
+            parentElement.appendChild(parentElementText)
+
+---------------------------------------------------------------------------------
+
 

@@ -53,4 +53,11 @@ The .getHours() method returns a number between 0 and 23. This represents the ho
         const hours = date.getHours();
 
 ----------------------------------------------------------
+### method .getMinutes()
 
+The .getMinutes() method returns a number between 0 and 59 which represents the minutes for the provided date.
+
+        const date = new Date();
+        const minutes = date.getMinutes();
+
+----------------------------------------------------------

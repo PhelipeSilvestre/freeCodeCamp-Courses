@@ -45,4 +45,12 @@ The .getFullYear() method returns a number which represents the year for the pro
         const year = date.getFullYear();
 
 ----------------------------------------------------------
+### method .getHours()
+
+The .getHours() method returns a number between 0 and 23. This represents the hour for the provided date, where 0 is midnight and 23 is 11 p.m.
+
+        const date = new Date();
+        const hours = date.getHours();
+
+----------------------------------------------------------
 

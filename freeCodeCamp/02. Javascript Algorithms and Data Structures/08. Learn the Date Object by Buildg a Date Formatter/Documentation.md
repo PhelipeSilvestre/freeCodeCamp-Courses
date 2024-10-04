@@ -37,7 +37,12 @@ Example Code
         const month = date.getMonth() + 1;
 
 ----------------------------------------------------------
+### method .getFullYear()
 
+The .getFullYear() method returns a number which represents the year for the provided date.
 
+        const date = new Date();
+        const year = date.getFullYear();
 
+----------------------------------------------------------
 

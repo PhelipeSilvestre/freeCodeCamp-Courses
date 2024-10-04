@@ -27,7 +27,16 @@ Example Code
         console.log(dayOfTheMonth); // 20
 
 ----------------------------------------------------------
+### method .getMonth()
 
+The .getMonth() method returns a number between 0 and 11. This represents the month for the date provided, where 0 is January and 11 is December. Because the number this method returns is zero-based, you need to add 1 to it to get the expected month number.
+
+Example Code
+
+        const date = new Date();
+        const month = date.getMonth() + 1;
+
+----------------------------------------------------------
 
 
 

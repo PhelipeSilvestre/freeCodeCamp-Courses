@@ -104,4 +104,9 @@ Example Code
         const greeting = "Hello World";
         greeting.split(); // ["Hello World"]
 
+Here other form:
+
+        const greeting = "Hello World".split();
+        console.log(greeting);
+
 ----------------------------------------------------------

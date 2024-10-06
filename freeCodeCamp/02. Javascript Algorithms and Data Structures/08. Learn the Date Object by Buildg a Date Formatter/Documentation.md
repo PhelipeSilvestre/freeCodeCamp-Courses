@@ -93,3 +93,15 @@ Example Code
         }
 
 ----------------------------------------------------------
+### split()
+
+The split() method is used to divide a string into substrings based on a specified separator. It then returns these substrings as elements of an array.
+
+Here is an example of taking the words "Hello World" and returning an array of one element:
+
+Example Code
+
+        const greeting = "Hello World";
+        greeting.split(); // ["Hello World"]
+
+----------------------------------------------------------

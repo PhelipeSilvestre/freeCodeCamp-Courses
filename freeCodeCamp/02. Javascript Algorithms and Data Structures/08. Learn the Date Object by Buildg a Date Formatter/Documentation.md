@@ -61,3 +61,16 @@ The .getMinutes() method returns a number between 0 and 59 which represents the 
         const minutes = date.getMinutes();
 
 ----------------------------------------------------------
+### "change" event
+
+In JavaScript, the change event is used to detect when the value of an HTML element has changed:
+
+Example Code
+
+        element.addEventListener("change", () => {
+    
+});
+
+----------------------------------------------------------
+
+

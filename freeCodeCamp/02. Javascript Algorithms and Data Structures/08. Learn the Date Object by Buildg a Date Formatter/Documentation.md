@@ -127,3 +127,16 @@ with .split(" ") // this space is divite a word with space.
 Other examples of separators can include a space " ", or a hyphen "-". If you don't provide a separator, the method will return an array with the original string as the only element.
 
 ----------------------------------------------------------
+### method .reverse()
+
+To reverse an array of elements, you can use the reverse method. This method reverses the order of the elements in the array in place. The first element becomes the last, and the last element becomes the first.
+
+Here is an example of using the reverse method:
+
+Example Code
+
+        // returns [5, 4, 3, 2, 1]
+        [1, 2, 3, 4, 5].reverse(); 
+
+
+----------------------------------------------------------

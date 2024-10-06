@@ -109,4 +109,21 @@ Here other form:
         const greeting = "Hello World".split();
         console.log(greeting);
 
+The split method takes in a parameter known as a separator. The separator is used to tell the computer where each split should occur.
+
+Here is an example of using an empty string as a separator:
+
+Example Code
+
+        // returns ["h", "e", "l", "l", "o"] with "" is return in any letter
+        "hello".split(""); 
+
+with .split(" ") // this space is divite a word with space.
+
+        "hello World".split(" ") 
+        // his return ["Hello", "World"]
+
+
+Other examples of separators can include a space " ", or a hyphen "-". If you don't provide a separator, the method will return an array with the original string as the only element.
+
 ----------------------------------------------------------

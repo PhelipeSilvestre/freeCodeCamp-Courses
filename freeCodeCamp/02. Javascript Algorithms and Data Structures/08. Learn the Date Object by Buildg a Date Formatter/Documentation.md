@@ -140,3 +140,15 @@ Example Code
 
 
 ----------------------------------------------------------
+### method .join()
+
+This method takes an array of elements and joins them into a string. Similar to the split method, the join method also takes an optional separator. If you don't provide a separator, the default separator is a comma.
+
+Here is an example of using the join method:
+
+Example Code
+
+        // returns "1-2-3-4-5"
+        [1, 2, 3, 4, 5].join("-");
+
+----------------------------------------------------------

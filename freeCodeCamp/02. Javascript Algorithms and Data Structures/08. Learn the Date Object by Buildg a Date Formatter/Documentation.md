@@ -92,6 +92,38 @@ Example Code
             console.log("It's the weekend!");
         }
 
+        
+If your switch statement is going to have multiple cases, it is best practice to include a break statement.
+
+The break statement will tell the JavaScript interpreter to stop executing statements. Without adding a break statement at the end of each case block, the program will execute the code for all matching cases:
+
+Example Code
+
+        switch (someVariable) {
+          case 'case123':
+            // Write your logic here
+            break; // Terminates the switch statement
+        }
+
+In a switch statement, the default case is executed when none of the previous case conditions match the value being evaluated. It serves as a catch-all for any other possible cases. For example:
+
+Example Code
+
+        const dayOfWeek = 7;
+
+        switch (dayOfWeek) {
+          case 1:
+            console.log("It's Monday!");
+            break;
+          case 2:
+            console.log("It's Tuesday!");
+            break;
+          // ...cases for other workdays
+          default:
+            console.log("It's the weekend!");
+        }        
+
+
 ----------------------------------------------------------
 ### split()
 

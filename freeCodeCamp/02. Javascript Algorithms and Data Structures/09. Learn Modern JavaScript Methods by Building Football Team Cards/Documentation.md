@@ -13,3 +13,16 @@ Example Code
     const { name, isDeveloper } = developerObj;
 
 ---------------------------------------------------------
+### default value in function parameters
+
+Function parameters can be initialized with default values. If a function is called without an argument, then the default value will be used:
+
+Example Code
+const greeting = (name = "Anonymous") => {
+  return "Hello " + name;
+} 
+
+console.log(greeting("John")); // Hello John
+console.log(greeting()); // Hello Anonymous
+
+---------------------------------------------------------

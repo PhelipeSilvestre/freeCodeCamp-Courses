@@ -12,3 +12,21 @@ Example Code
 
 
 -----------------------------------------------------------------
+
+### method showModal()
+
+A modal is an element that prevents all interaction with elements outside it until the modal has been dismissed.
+
+The HTML dialog element has a showModal() method that can be used to display a modal dialog box on a web page.
+
+Example Code
+
+        dialogElement.showModal();
+
+If the user clicks the Cancel button, you want to cancel the process and close the modal so the user can continue editing. The HTML dialog element has a close() method that can be used to close a modal dialog box on a web page.
+
+Example Code
+
+        dialogElement.close();
+
+-----------------------------------------------------------------

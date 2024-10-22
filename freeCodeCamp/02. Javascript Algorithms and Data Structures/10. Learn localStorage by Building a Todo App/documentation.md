@@ -30,3 +30,16 @@ Example Code
         dialogElement.close();
 
 -----------------------------------------------------------------
+
+### findIndex() method array
+
+The findIndex() array method finds and returns the index of the first element in an array that meets the criteria specified by a provided testing callback function. If no such element is found, the method returns -1. The callback should return a truthy value to indicate a matching element has been found, and a falsy value otherwise.
+
+Example Code
+
+        const numbers = [3, 1, 5, 6];
+        const firstNumLargerThanThree = numbers.findIndex((num) => num > 3);
+
+        console.log(firstNumLargerThanThree); // prints index 2
+
+-----------------------------------------------------------------

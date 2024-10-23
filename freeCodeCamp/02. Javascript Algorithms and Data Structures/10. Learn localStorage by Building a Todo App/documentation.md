@@ -43,3 +43,18 @@ Example Code
         console.log(firstNumLargerThanThree); // prints index 2
 
 -----------------------------------------------------------------
+
+###  unshift() array method
+
+unshift() is an array method that is used to add one or more elements to the beginning of an array.
+
+Example Code
+
+        const arr = [1, 2, 3];
+        arr.unshift(0);
+
+        // [0, 1, 2, 3]
+        console.log(arr); 
+
+
+-----------------------------------------------------------------

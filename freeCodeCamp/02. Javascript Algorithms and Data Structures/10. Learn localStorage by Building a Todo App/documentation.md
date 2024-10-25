@@ -58,3 +58,19 @@ Example Code
 
 
 -----------------------------------------------------------------
+
+### splice() array method
+
+splice() is an array method that modifies arrays by removing, replacing, or adding elements at a specified index, while also returning the removed elements. It can take up to three arguments: the first one is the mandatory index at which to start, the second is the number of items to remove, and the third is an optional replacement element. Here's an example:
+
+Example Code
+
+        const fruits = ["mango", "date", "cherry", "banana", "apple"];
+
+        // Remove date and cherry from the array starting at index 1
+        const removedFruits = fruits.splice(1, 2);
+
+        console.log(fruits); // [ 'mango', 'banana', 'apple' ]
+        console.log(removedFruits); // [ 'date', 'cherry' ]
+
+-----------------------------------------------------------------

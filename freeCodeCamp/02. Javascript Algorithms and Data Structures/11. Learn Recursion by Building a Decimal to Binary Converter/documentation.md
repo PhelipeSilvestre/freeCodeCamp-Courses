@@ -26,3 +26,40 @@ Example Code
 
 
 -----------------------------------------------------------------
+
+### call stack
+
+In computer science, a stack is a data structure where items are stored in a LIFO (last-in-first-out) manner. If you imagine a stack of books, the last book you add to the stack is the first book you can take off the stack. Or an array where you can only .push() and .pop() elements.
+
+The call stack is a collection of function calls stored in a stack structure. When you call a function, it is added to the top of the stack, and when it returns, it is removed from the top / end of the stack.
+
+
+-----------------------------------------------------------------
+
+### Recursive function
+
+A recursive function is a function that calls itself over and over. But you have to be careful because you can easily create an infinite loop. That's where the base case comes in. The base case is when the function stops calling itself, and it is a good idea to write it first.
+
+Recursive functions also have a recursive case, which is where the function calls itself.
+
+When writing the recursive case, you need to remember two things:
+
+What is the base case?
+What is the least amount of work you need to do to get closer to the base case?
+
+
+exemple:
+
+    const countdown = (number) => {
+        console.log(number);
+        
+        if (number === 0) {
+            return;
+        } else {
+            countdown(number - 1);
+        }
+    };
+
+    countdown(3);
+
+

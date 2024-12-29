@@ -10,3 +10,16 @@ const decimalToRomanNumeral = (input) => {
       return "Numero será convertido aqui";
     }
   };
+
+  const checkUserInput = () => {
+    const inputInt = parseInt(numberInput.value);
+  
+    if (!numberInput.value || isNaN(inputInt) || inputInt < 0) {
+      alert("Please provide a decimal number greater than or equal to 0");
+      return;
+    }
+  
+     
+    result.textContent = decimalToRomanNumeral(inputInt);
+    numberInput.value = "";
+  };
